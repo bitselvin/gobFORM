@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container">
+    <header class="header">
+        <img src="./img/logo.webp" alt="">
+    </header>
+    <main>
+        <div class="ll"> <h4>ENTREVISTA PSICOSOCIAL</h4></div>
+        <section>  
+         <form class ="form_1" id="form1">
+            <h2> DATOS GENERALES</h2>
+            <label for="nombre">
+                <input type="text" id="nombre" placeholder="Nombre Completo" required>
+            </label>
+            <label for="dpi">
+                <input type="number" id="dpi" placeholder="No. DPI">
+
+            </label>
+            <label for="tel">
+                <input type="number" id="tel" placeholder="No. Telefono">
+            </label>
+            <label for="">
+            <select class="estado" name="" id="">
+                <option disabled selected>Estado Civil</option>
+                <option value="1"> Soltero (a)</option>
+                <option value="2"> Casado (a)</option>
+                <option value="3"> Unido (a)</option>
+            </select>
+            </label>
+            <label for="">
+            <select class="estado" name="" id="">
+                <option disabled selected>Cantidad de Hijos</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="1">4</option>
+                <option value="2">5</option>
+                <option value="3">6</option>
+            </select>
+            </label>
+
+            <label for="nombre">
+                <select class="estado" name="" id="">
+                    <option disabled selected>Escolaridad</option>
+                    <option value="1">Primaria</option>
+                    <option value="2">Basicos</option>
+                    <option value="3">Diversificado</option>
+                    <option value="1">Licenciatura</option>
+                    <option value="2">Maestria</option>
+                </select>
+            </label>
+
+            <label for="nombre">
+                <select class="estado" name="" id="">
+                    <option disabled selected>Cantidad de Miembros en la Familia</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="1">4</option>
+                    <option value="2">5</option>
+                    <option value="1">6</option>
+                    <option value="2">7</option>
+                </select>
+                
+            </label>
+
+            <label for="nombre">
+                <input type="text" id="nombre" placeholder="Direccion de Domicilio">
+            </label>
+            <label for="nombre">
+                <select class="estado" name="" id="">
+                    <option disabled selected>Departamento</option>
+                    <option value="1">Guatemala</option>
+                    <option value="2">Alta Verapaz</option>
+                    <option value="3">Chimaltenango</option>
+                    <option value="4">El Progreso</option>
+                    <option value="5">Escuintla</option>
+                    <option value="6">Chiquimula</option>
+                    <option value="7">Huehuetenango</option>
+                    <option value="8">Izabal</option>
+                    <option value="9">Jalapa</option>
+                    <option value="10">Jutiapa</option>
+
+                </select>
+            </label>
+            <label for="nombre">
+                <select class="estado" name="" id="">
+                    <option disabled selected>Municipio</option>
+                    <option value="1">Guatemala</option>
+                    <option value="2">San Jose del Golfo</option>
+                    <option value="3">Palencia</option>
+                    <option value="1">Chinautla</option>
+                    <option value="2">San Pedro Ayampuc</option>
+                    <option value="1">Mixco</option>
+                    <option value="2">Villa Canales</option>
+                </select>
+                
+            </label>
+            <label for="">
+                <select name="" id="">
+                <option disabled selected>Zona de Residencia</option>
+                <option value="1">Urbana</option>
+                <option value="2">Rural</option>
+            </select>
+            </label>
+            <div class="button" id="bt1">
+                <input class="buttons" type="submit" value="Siguiente"></input>                
+            </div>
+         </form>
+         
+         <form class ="form_2 desactivado" id="form2">
+            <h2> SITUACION LABORAL</h2>
+            <label for="">
+            <span> Estatus </span>
+            <select class="estado" name="" id="">
+                <option value="1">Activo</option>
+                <option value="2">Jubilado</option>
+                <option value="3">Tramite de Baja</option>
+                <option value="4">Situacion Especial</option>
+            </select>
+            </label>
+            <label for="nombre">
+                <input type="text" id="nombre" placeholder="Lugar de Destino">
+            </label>
+            <label for="nombre">
+                <input type="text" id="nombre" placeholder="Puesto que Desempeña">
+            </label>
+            <label for="nombre">
+                <input type="text" id="nombre" placeholder="Tiempo de Servicio">
+            </label>
+            <label for="nombre">
+                <input type="text" id="nombre" placeholder="Turno">
+            </label>
+            <label for="">
+                <span>Motivo de la Solicitud de Reubicacion</span>
+            </label>
+            <label for="">
+                <input type="text">
+            </label>
+            
+            <div class="button">
+                <input class="buttons" type="submit" value="Siguiente"></input>
+            </div>
+         </form>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <span class="footer"> &copy; 2024 Ministerio de Gobernacion | Direccion General de la Policia Nacional Civil</span>
+
+    </footer>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+body{
+    background-color: #192854;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    padding: 10px;
+    width: 24%;
+    height: 100%;
+}
+
+
+main{
+    width: 100%;
+    padding:12px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ll{
+    text-align: center;
+    height: auto;
+    color: white;
+}
+
+
+h3{
+    height: 25px;
+    color: white;
+}
+label{
+    padding: 1px;
+    text-align: center;
+}
+
+
+input{
+    height: 20px;
+    border: none;
+    border-bottom: solid 1.5px;
+    border-color: #0091ff;
+    width: 80%;
+    font-size: 14px;
+    
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+.form_1{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 12px;
+    border: solid 3px #0091ff;
+    padding: 12px;
+
+}
+
+.form_2{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 12px;
+    border: solid 3px #0091ff;
+    padding: 12px;
+    transition: all 0.5s;
+
+}
+.desactivado{
+    display: none;
+    visibility: hidden;
+}
+
+h2{
+
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 5PX;
+}
+
+label span{
+    color: gray;
+    font-size: 14px;
+}
+
+select{
+    border-radius: 12px;
+    border-color: #0091ff;
+    width: 65%;
+    height: 32px;
+    padding-right: 12px;
+}
+
+
+footer{
+    height: 32px;
+    width: 100%;
+    background-color: #0091ff;
+    color: white;
+    text-align: center;
+}
+
+
+.buttons{
+    border: 2 solid #0091ff;
+    border-radius: 16px;
+    height: 24px;
+    width: 120px;
+    background-color: #0091ff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button{
+
+    text-align: center;
+}
+
+@media screen and (max-width:828px){
+
+
+    .form_1,.form_2{
+        width: 85%;
+    }
+
+    img{
+        padding: 10px;
+        width: 256px;
+        height: 100%;
+    }
+    
+    .footer{
+        font-size: 9px;
+    }
+
+}
+
